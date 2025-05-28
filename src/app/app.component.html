@@ -1,2 +1,11 @@
-<h1>¡Buena Suerte!</h1>
-<router-outlet />
+<header class="navbar">
+  <div class="logo">Star Wars</div>
+  <nav>
+    <a routerLink="/people" routerLinkActive="active">People</a>
+    <a routerLink="/films" routerLinkActive="active">Films</a>
+  </nav>
+</header>
+
+<main class="contenido">
+  <router-outlet></router-outlet>
+</main>
